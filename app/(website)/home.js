@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 import Container from "@/components/container";
 import PostList from "@/components/postlist";

@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper/core';
+import SwiperCore from 'swiper/core';
+import { Navigation } from "swiper/modules";
 
 SwiperCore.use([Navigation]);
 import { useRouter } from "next/navigation";
